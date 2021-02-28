@@ -79,3 +79,8 @@ class PagesAction(BasePage):
             logger.info('the element: {} not found.'.format(MainPageLocator.edition_upgrade_loc))
         except Exception as e:
             logger.info(e)
+
+    def agree_privacy(self):
+        self.click_element(LoginPageLocator.agree_privacy_loc)
+        self.sleep(3)
+

@@ -6,3 +6,4 @@ class LoginPageLocator:
     username_inputbox_loc = (By.ID, 'com.lchr.diaoyu:id/user_id')
     password_inputbox_loc = (By.ID, 'com.lchr.diaoyu:id/passwd_id')
     login_btn_loc = (By.ID, 'com.lchr.diaoyu:id/btn_login')
+    agree_privacy_loc = (By.ID, 'com.lchr.diaoyu:id/cb_agree_privacy')

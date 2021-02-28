@@ -1,0 +1,44 @@
+INFO     root:get_log.py:36 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/cb_agree_privacy')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element {"using": "id", "value": "com.lchr.diaoyu:id/cb_agree_privacy"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 已找到页面元素： <appium.webdriver.webelement.WebElement (session="3ca092c8-0ba1-441c-b7b6-e94398b1d945", element="03e70e58-743d-4bd7-8126-f4018de10ab5")>
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element/03e70e58-743d-4bd7-8126-f4018de10ab5/click {"id": "03e70e58-743d-4bd7-8126-f4018de10ab5"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element/03e70e58-743d-4bd7-8126-f4018de10ab5/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 页面元素： <appium.webdriver.webelement.WebElement (session="3ca092c8-0ba1-441c-b7b6-e94398b1d945", element="03e70e58-743d-4bd7-8126-f4018de10ab5")> 已点击
+INFO     root:get_log.py:36 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element {"using": "id", "value": "com.lchr.diaoyu:id/user_id"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 已找到页面元素： <appium.webdriver.webelement.WebElement (session="3ca092c8-0ba1-441c-b7b6-e94398b1d945", element="a5787c38-b2a6-46c7-9e36-f78b3b8efa12")>
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element/a5787c38-b2a6-46c7-9e36-f78b3b8efa12/value {"text": "15510817996", "value": ["1", "5", "5", "1", "0", "8", "1", "7", "9", "9", "6"], "id": "a5787c38-b2a6-46c7-9e36-f78b3b8efa12"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element/a5787c38-b2a6-46c7-9e36-f78b3b8efa12/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 已向页面元素: <appium.webdriver.webelement.WebElement (session="3ca092c8-0ba1-441c-b7b6-e94398b1d945", element="a5787c38-b2a6-46c7-9e36-f78b3b8efa12")> 传送数据
+INFO     root:get_log.py:36 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element {"using": "id", "value": "com.lchr.diaoyu:id/passwd_id"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 已找到页面元素： <appium.webdriver.webelement.WebElement (session="3ca092c8-0ba1-441c-b7b6-e94398b1d945", element="4688ded5-fc9e-42e2-b02f-86314f5e70c1")>
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element/4688ded5-fc9e-42e2-b02f-86314f5e70c1/value {"text": "123456Ok", "value": ["1", "2", "3", "4", "5", "6", "O", "k"], "id": "4688ded5-fc9e-42e2-b02f-86314f5e70c1"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element/4688ded5-fc9e-42e2-b02f-86314f5e70c1/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 已向页面元素: <appium.webdriver.webelement.WebElement (session="3ca092c8-0ba1-441c-b7b6-e94398b1d945", element="4688ded5-fc9e-42e2-b02f-86314f5e70c1")> 传送数据
+INFO     root:get_log.py:36 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element {"using": "id", "value": "com.lchr.diaoyu:id/btn_login"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 已找到页面元素： <appium.webdriver.webelement.WebElement (session="3ca092c8-0ba1-441c-b7b6-e94398b1d945", element="dff9b6d6-554e-42c4-b821-97262a03f78d")>
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element/dff9b6d6-554e-42c4-b821-97262a03f78d/click {"id": "dff9b6d6-554e-42c4-b821-97262a03f78d"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element/dff9b6d6-554e-42c4-b821-97262a03f78d/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 页面元素： <appium.webdriver.webelement.WebElement (session="3ca092c8-0ba1-441c-b7b6-e94398b1d945", element="dff9b6d6-554e-42c4-b821-97262a03f78d")> 已点击
+INFO     root:get_log.py:36 登录完成
+INFO     root:get_log.py:36 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_nick_name')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element {"using": "id", "value": "com.lchr.diaoyu:id/user_nick_name"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945/element HTTP/1.1" 404 494
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:4723/wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "DELETE /wd/hub/session/3ca092c8-0ba1-441c-b7b6-e94398b1d945 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

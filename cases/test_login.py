@@ -10,6 +10,13 @@ def prepare_to_login(handler):
     handler[1].go_to_login_page()
 
 
+@pytest.fixture(scope='module')
+def agree_the_privacy(handler):
+    logger.info('点击同意协议')
+    handler[1].agree_privacy()
+
+
+@pytest.mark.usefixtures('agree_the_privacy')
 @pytest.mark.usefixtures('prepare_to_login')
 class TestLogin:
     @pytest.mark.last

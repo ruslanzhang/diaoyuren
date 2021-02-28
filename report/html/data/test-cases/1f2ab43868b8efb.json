@@ -1,0 +1,140 @@
+{
+  "uid" : "1f2ab43868b8efb",
+  "name" : "test_login_failed[data0]",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "d93c8b521d1ee7fc4eb27338522fd359",
+  "time" : {
+    "start" : 1610870373938,
+    "stop" : 1610870387313,
+    "duration" : 13375
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'Log' object is not callable",
+  "statusTrace" : "self = <pages.pages_action.PagesAction object at 0x00000225323D4438>\nmsg = '用户名不能为空', timeout = 8, poll_frequency = 0.2\n\n    def is_toast_show(self, msg, timeout=20, poll_frequency=0.5):\n        \"\"\"\n    \n        :param msg: toast 中显示的文本中包含的内容\n        :param timeout:\n        :param poll_frequency:\n        :return:\n        \"\"\"\n        logger.info('waiting for toast element to show')\n        locator = (By.XPATH, \"//*[contains(@text, '%s')]\" % msg)\n        try:\n>           WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))\n\ncommon\\bases\\base_page.py:83: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"da09cea6-b40a-4eda-9420-e55def782def\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x000002253317A240>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nD:\\Python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <cases.test_login.TestLogin object at 0x00000225330AB160>\nhandler = (<appium.webdriver.webdriver.WebDriver (session=\"da09cea6-b40a-4eda-9420-e55def782def\")>, <pages.pages_action.PagesAction object at 0x00000225323D4438>)\ndata = {'error_msg': '用户名不能为空', 'name': '登录功能-异常登录-用户名为空', 'password': '654321', 'username': ''}\n\n    @pytest.mark.parametrize('data', failed_data)\n    def test_login_failed(self, handler, data):\n        handler[1].login(data['username'], data['password'])\n        logger.info('反向用例，登录失败')\n>       assert handler[1].is_toast_show(data['error_msg'], 8, 0.2)\n\ncases\\test_login.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.pages_action.PagesAction object at 0x00000225323D4438>\nmsg = '用户名不能为空', timeout = 8, poll_frequency = 0.2\n\n    def is_toast_show(self, msg, timeout=20, poll_frequency=0.5):\n        \"\"\"\n    \n        :param msg: toast 中显示的文本中包含的内容\n        :param timeout:\n        :param poll_frequency:\n        :return:\n        \"\"\"\n        logger.info('waiting for toast element to show')\n        locator = (By.XPATH, \"//*[contains(@text, '%s')]\" % msg)\n        try:\n            WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))\n            return True\n        except Exception as e:\n            logger.warning('toast not found.')\n>           logger(e)\nE           TypeError: 'Log' object is not callable\n\ncommon\\bases\\base_page.py:87: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1610870373933,
+      "stop" : 1610870373933,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler",
+    "time" : {
+      "start" : 1610870337385,
+      "stop" : 1610870359300,
+      "duration" : 21915
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "prepare_to_login",
+    "time" : {
+      "start" : 1610870359300,
+      "stop" : 1610870373933,
+      "duration" : 14633
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'Log' object is not callable",
+    "statusTrace" : "self = <pages.pages_action.PagesAction object at 0x00000225323D4438>\nmsg = '用户名不能为空', timeout = 8, poll_frequency = 0.2\n\n    def is_toast_show(self, msg, timeout=20, poll_frequency=0.5):\n        \"\"\"\n    \n        :param msg: toast 中显示的文本中包含的内容\n        :param timeout:\n        :param poll_frequency:\n        :return:\n        \"\"\"\n        logger.info('waiting for toast element to show')\n        locator = (By.XPATH, \"//*[contains(@text, '%s')]\" % msg)\n        try:\n>           WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))\n\ncommon\\bases\\base_page.py:83: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"da09cea6-b40a-4eda-9420-e55def782def\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x000002253317A240>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nD:\\Python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <cases.test_login.TestLogin object at 0x00000225330AB160>\nhandler = (<appium.webdriver.webdriver.WebDriver (session=\"da09cea6-b40a-4eda-9420-e55def782def\")>, <pages.pages_action.PagesAction object at 0x00000225323D4438>)\ndata = {'error_msg': '用户名不能为空', 'name': '登录功能-异常登录-用户名为空', 'password': '654321', 'username': ''}\n\n    @pytest.mark.parametrize('data', failed_data)\n    def test_login_failed(self, handler, data):\n        handler[1].login(data['username'], data['password'])\n        logger.info('反向用例，登录失败')\n>       assert handler[1].is_toast_show(data['error_msg'], 8, 0.2)\n\ncases\\test_login.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.pages_action.PagesAction object at 0x00000225323D4438>\nmsg = '用户名不能为空', timeout = 8, poll_frequency = 0.2\n\n    def is_toast_show(self, msg, timeout=20, poll_frequency=0.5):\n        \"\"\"\n    \n        :param msg: toast 中显示的文本中包含的内容\n        :param timeout:\n        :param poll_frequency:\n        :return:\n        \"\"\"\n        logger.info('waiting for toast element to show')\n        locator = (By.XPATH, \"//*[contains(@text, '%s')]\" % msg)\n        try:\n            WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))\n            return True\n        except Exception as e:\n            logger.warning('toast not found.')\n>           logger(e)\nE           TypeError: 'Log' object is not callable\n\ncommon\\bases\\base_page.py:87: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "740f77f283d366ca",
+      "name" : "log",
+      "source" : "740f77f283d366ca.txt",
+      "type" : "text/plain",
+      "size" : 26598
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1610870429104,
+      "stop" : 1610870429689,
+      "duration" : 585
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('prepare_to_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "ruslan"
+  }, {
+    "name" : "thread",
+    "value" : "8844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('prepare_to_login')" ]
+  },
+  "source" : "1f2ab43868b8efb.json",
+  "parameterValues" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
+}

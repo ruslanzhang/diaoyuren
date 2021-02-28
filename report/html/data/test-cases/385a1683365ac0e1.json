@@ -1,0 +1,202 @@
+{
+  "uid" : "385a1683365ac0e1",
+  "name" : "test_login_failed[data4]",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "a2528e03df87bef62f4107d22c34aea5",
+  "time" : {
+    "start" : 1614504778258,
+    "stop" : 1614504783016,
+    "duration" : 4758
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "prepare_to_login",
+    "time" : {
+      "start" : 1614504744571,
+      "stop" : 1614504756347,
+      "duration" : 11776
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler",
+    "time" : {
+      "start" : 1614504724559,
+      "stop" : 1614504744571,
+      "duration" : 20012
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "agree_the_privacy",
+    "time" : {
+      "start" : 1614504756347,
+      "stop" : 1614504759396,
+      "duration" : 3049
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1614504778257,
+      "stop" : 1614504778257,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "506886d75eaa19ae",
+      "name" : "log",
+      "source" : "506886d75eaa19ae.txt",
+      "type" : "text/plain",
+      "size" : 5390
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1614504787675,
+      "stop" : 1614504788169,
+      "duration" : 494
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('prepare_to_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "ruslan"
+  }, {
+    "name" : "thread",
+    "value" : "14824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb925df7e58fe925",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614504182896,
+        "stop" : 1614504190630,
+        "duration" : 7734
+      }
+    }, {
+      "uid" : "61252a8bfbff56cc",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026CE860D9B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))",
+      "time" : {
+        "start" : 1614499961408,
+        "stop" : 1614499961408,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4578f68241acd4c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610872619153,
+        "stop" : 1610872623758,
+        "duration" : 4605
+      }
+    }, {
+      "uid" : "618c8c64f96c5e48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610870727534,
+        "stop" : 1610870732232,
+        "duration" : 4698
+      }
+    }, {
+      "uid" : "b1275255d978285b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610870419806,
+        "stop" : 1610870424440,
+        "duration" : 4634
+      }
+    }, {
+      "uid" : "1534c5e76f14e078",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610868197161,
+        "stop" : 1610868201941,
+        "duration" : 4780
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('prepare_to_login')" ]
+  },
+  "source" : "385a1683365ac0e1.json",
+  "parameterValues" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
+}

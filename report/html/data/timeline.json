@@ -4,148 +4,10 @@
   "children" : [ {
     "name" : "ruslan",
     "children" : [ {
-      "name" : "3552-MainThread",
-      "children" : [ {
-        "name" : "test_login_success",
-        "uid" : "67a361cd4025080a",
-        "parentUid" : "92432f125e7ca54197765cd3fc6aaf7e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1610780958199,
-          "stop" : 1610780958199,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "92432f125e7ca54197765cd3fc6aaf7e"
-    }, {
-      "name" : "14580-MainThread",
-      "children" : [ {
-        "name" : "test_login_failed[data4]",
-        "uid" : "954cdbf36ef32786",
-        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610872619153,
-          "stop" : 1610872623758,
-          "duration" : 4605
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
-      }, {
-        "name" : "test_login_failed[data0]",
-        "uid" : "8ead054206d5c5e0",
-        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610872600474,
-          "stop" : 1610872605173,
-          "duration" : 4699
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
-      }, {
-        "name" : "test_login_failed[data3]",
-        "uid" : "462e9b61bea6d6d5",
-        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610872614424,
-          "stop" : 1610872619148,
-          "duration" : 4724
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
-      }, {
-        "name" : "test_login_failed[data2]",
-        "uid" : "b68dda391336e9c",
-        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610872609788,
-          "stop" : 1610872614416,
-          "duration" : 4628
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
-      }, {
-        "name" : "test_login_success",
-        "uid" : "f99b1553a1f32ebd",
-        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610872623763,
-          "stop" : 1610872628424,
-          "duration" : 4661
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_login_failed[data1]",
-        "uid" : "b443e94ea934c283",
-        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610872605180,
-          "stop" : 1610872609782,
-          "duration" : 4602
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok', 'error_msg': '账号或密码错误'}" ]
-      } ],
-      "uid" : "9a7f68e12a3d15a3c669b54a57a41d8b"
-    }, {
       "name" : "15284-MainThread",
       "children" : [ {
-        "name" : "test_login_failed[data3]",
-        "uid" : "c5bea44e4f142ac6",
-        "parentUid" : "1a583fafa2fe2565ae5686e79d532909",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610868192139,
-          "stop" : 1610868197152,
-          "duration" : 5013
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
-      }, {
-        "name" : "test_login_failed[data2]",
-        "uid" : "6d3c16f10cf3d908",
-        "parentUid" : "1a583fafa2fe2565ae5686e79d532909",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610868187358,
-          "stop" : 1610868192132,
-          "duration" : 4774
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
-      }, {
-        "name" : "test_login_failed[data4]",
-        "uid" : "a688d0bdc9170107",
-        "parentUid" : "1a583fafa2fe2565ae5686e79d532909",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610868197161,
-          "stop" : 1610868201941,
-          "duration" : 4780
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
-      }, {
         "name" : "test_login_failed[data0]",
-        "uid" : "832e22220dd76a5d",
+        "uid" : "97d495d05127c07d",
         "parentUid" : "1a583fafa2fe2565ae5686e79d532909",
         "status" : "passed",
         "time" : {
@@ -157,8 +19,47 @@
         "newFailed" : false,
         "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
       }, {
+        "name" : "test_login_failed[data2]",
+        "uid" : "6e9407ec122dacc1",
+        "parentUid" : "1a583fafa2fe2565ae5686e79d532909",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610868187358,
+          "stop" : 1610868192132,
+          "duration" : 4774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
+      }, {
+        "name" : "test_login_failed[data3]",
+        "uid" : "23b845d2525b892",
+        "parentUid" : "1a583fafa2fe2565ae5686e79d532909",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610868192139,
+          "stop" : 1610868197152,
+          "duration" : 5013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
+      }, {
+        "name" : "test_login_failed[data4]",
+        "uid" : "1534c5e76f14e078",
+        "parentUid" : "1a583fafa2fe2565ae5686e79d532909",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610868197161,
+          "stop" : 1610868201941,
+          "duration" : 4780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
+      }, {
         "name" : "test_login_failed[data1]",
-        "uid" : "7e4c53c3ff0fe32f",
+        "uid" : "98d8ba555614a2e3",
         "parentUid" : "1a583fafa2fe2565ae5686e79d532909",
         "status" : "passed",
         "time" : {
@@ -172,10 +73,282 @@
       } ],
       "uid" : "1a583fafa2fe2565ae5686e79d532909"
     }, {
-      "name" : "8844-MainThread",
+      "name" : "2836-MainThread",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "a541cedb4cf6a257",
+        "parentUid" : "532038c52c9cbd757e57cf8eb6e336b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614504190636,
+          "stop" : 1614504198392,
+          "duration" : 7756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_failed[data2]",
+        "uid" : "18fac21135c263a1",
+        "parentUid" : "532038c52c9cbd757e57cf8eb6e336b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504167406,
+          "stop" : 1614504175089,
+          "duration" : 7683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
+      }, {
+        "name" : "test_login_failed[data4]",
+        "uid" : "eb925df7e58fe925",
+        "parentUid" : "532038c52c9cbd757e57cf8eb6e336b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504182896,
+          "stop" : 1614504190630,
+          "duration" : 7734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_failed[data3]",
+        "uid" : "dd891b5916976b33",
+        "parentUid" : "532038c52c9cbd757e57cf8eb6e336b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504175096,
+          "stop" : 1614504182891,
+          "duration" : 7795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
+      }, {
+        "name" : "test_login_failed[data1]",
+        "uid" : "18549c3379dabdd5",
+        "parentUid" : "532038c52c9cbd757e57cf8eb6e336b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614504151584,
+          "stop" : 1614504167318,
+          "duration" : 15734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_failed[data0]",
+        "uid" : "6b5ad4f819603b24",
+        "parentUid" : "532038c52c9cbd757e57cf8eb6e336b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504143648,
+          "stop" : 1614504151576,
+          "duration" : 7928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
+      } ],
+      "uid" : "532038c52c9cbd757e57cf8eb6e336b3"
+    }, {
+      "name" : "14824-MainThread",
       "children" : [ {
         "name" : "test_login_failed[data2]",
-        "uid" : "fbf6581f3611bb3f",
+        "uid" : "1ed3f19cfb7f35c7",
+        "parentUid" : "fdf629e5583c64df455b1233e3885460",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504768964,
+          "stop" : 1614504773642,
+          "duration" : 4678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
+      }, {
+        "name" : "test_login_failed[data3]",
+        "uid" : "d33d6c1be47e9343",
+        "parentUid" : "fdf629e5583c64df455b1233e3885460",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504773646,
+          "stop" : 1614504778253,
+          "duration" : 4607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
+      }, {
+        "name" : "test_login_failed[data4]",
+        "uid" : "385a1683365ac0e1",
+        "parentUid" : "fdf629e5583c64df455b1233e3885460",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504778258,
+          "stop" : 1614504783016,
+          "duration" : 4758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_failed[data0]",
+        "uid" : "782d803b44a2eb7e",
+        "parentUid" : "fdf629e5583c64df455b1233e3885460",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504759403,
+          "stop" : 1614504764229,
+          "duration" : 4826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
+      }, {
+        "name" : "test_login_failed[data1]",
+        "uid" : "54dc508b8a02d917",
+        "parentUid" : "fdf629e5583c64df455b1233e3885460",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504764236,
+          "stop" : 1614504768960,
+          "duration" : 4724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_success",
+        "uid" : "3718b39ca3082356",
+        "parentUid" : "fdf629e5583c64df455b1233e3885460",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614504783022,
+          "stop" : 1614504787669,
+          "duration" : 4647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fdf629e5583c64df455b1233e3885460"
+    }, {
+      "name" : "14580-MainThread",
+      "children" : [ {
+        "name" : "test_login_failed[data2]",
+        "uid" : "912de4cd0906d334",
+        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610872609788,
+          "stop" : 1610872614416,
+          "duration" : 4628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
+      }, {
+        "name" : "test_login_failed[data4]",
+        "uid" : "4578f68241acd4c2",
+        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610872619153,
+          "stop" : 1610872623758,
+          "duration" : 4605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_failed[data0]",
+        "uid" : "a5a74afdcfe45759",
+        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610872600474,
+          "stop" : 1610872605173,
+          "duration" : 4699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
+      }, {
+        "name" : "test_login_success",
+        "uid" : "592b3c5c38a60866",
+        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610872623763,
+          "stop" : 1610872628424,
+          "duration" : 4661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_failed[data1]",
+        "uid" : "f1e6e1e9c9115027",
+        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610872605180,
+          "stop" : 1610872609782,
+          "duration" : 4602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_failed[data3]",
+        "uid" : "24d91f71f5f19af5",
+        "parentUid" : "9a7f68e12a3d15a3c669b54a57a41d8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610872614424,
+          "stop" : 1610872619148,
+          "duration" : 4724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
+      } ],
+      "uid" : "9a7f68e12a3d15a3c669b54a57a41d8b"
+    }, {
+      "name" : "8844-MainThread",
+      "children" : [ {
+        "name" : "test_login_failed[data3]",
+        "uid" : "2499149225b9275c",
+        "parentUid" : "12c7c66729427312fb16b18914d17b11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610870415134,
+          "stop" : 1610870419796,
+          "duration" : 4662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
+      }, {
+        "name" : "test_login_failed[data1]",
+        "uid" : "8e8fc3ff8b64a739",
+        "parentUid" : "12c7c66729427312fb16b18914d17b11",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610870387649,
+          "stop" : 1610870401178,
+          "duration" : 13529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_failed[data2]",
+        "uid" : "e49a4f23eb57360c",
         "parentUid" : "12c7c66729427312fb16b18914d17b11",
         "status" : "broken",
         "time" : {
@@ -188,7 +361,7 @@
         "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
       }, {
         "name" : "test_login_success",
-        "uid" : "aca9f08b7d03cc4e",
+        "uid" : "5637b66ed45e19aa",
         "parentUid" : "12c7c66729427312fb16b18914d17b11",
         "status" : "passed",
         "time" : {
@@ -200,34 +373,8 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_login_failed[data0]",
-        "uid" : "93dcc5c2dc54d90b",
-        "parentUid" : "12c7c66729427312fb16b18914d17b11",
-        "status" : "broken",
-        "time" : {
-          "start" : 1610870373938,
-          "stop" : 1610870387313,
-          "duration" : 13375
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
-      }, {
-        "name" : "test_login_failed[data3]",
-        "uid" : "d6ca64bd14fdaa9",
-        "parentUid" : "12c7c66729427312fb16b18914d17b11",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610870415134,
-          "stop" : 1610870419796,
-          "duration" : 4662
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
-      }, {
         "name" : "test_login_failed[data4]",
-        "uid" : "6e8ff7cc89b0b279",
+        "uid" : "b1275255d978285b",
         "parentUid" : "12c7c66729427312fb16b18914d17b11",
         "status" : "passed",
         "time" : {
@@ -239,192 +386,25 @@
         "newFailed" : false,
         "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
       }, {
-        "name" : "test_login_failed[data1]",
-        "uid" : "855d800889f3e35c",
+        "name" : "test_login_failed[data0]",
+        "uid" : "1f2ab43868b8efb",
         "parentUid" : "12c7c66729427312fb16b18914d17b11",
         "status" : "broken",
         "time" : {
-          "start" : 1610870387649,
-          "stop" : 1610870401178,
-          "duration" : 13529
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok', 'error_msg': '账号或密码错误'}" ]
-      } ],
-      "uid" : "12c7c66729427312fb16b18914d17b11"
-    }, {
-      "name" : "10788-MainThread",
-      "children" : [ {
-        "name" : "test_login_failed[data3]",
-        "uid" : "7ea9a8cdbe72245",
-        "parentUid" : "926c880be232cd17535b368350df231e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610870722826,
-          "stop" : 1610870727525,
-          "duration" : 4699
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
-      }, {
-        "name" : "test_login_failed[data4]",
-        "uid" : "55a8fbd23ee3858b",
-        "parentUid" : "926c880be232cd17535b368350df231e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610870727534,
-          "stop" : 1610870732232,
-          "duration" : 4698
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
-      }, {
-        "name" : "test_login_failed[data1]",
-        "uid" : "2b01e215c2ef7d15",
-        "parentUid" : "926c880be232cd17535b368350df231e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610870713255,
-          "stop" : 1610870718060,
-          "duration" : 4805
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok', 'error_msg': '账号或密码错误'}" ]
-      }, {
-        "name" : "test_login_success",
-        "uid" : "384428e40600e609",
-        "parentUid" : "926c880be232cd17535b368350df231e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610870732240,
-          "stop" : 1610870736910,
-          "duration" : 4670
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_login_failed[data2]",
-        "uid" : "244a430422f88d0a",
-        "parentUid" : "926c880be232cd17535b368350df231e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610870718067,
-          "stop" : 1610870722819,
-          "duration" : 4752
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
-      }, {
-        "name" : "test_login_failed[data0]",
-        "uid" : "b4c57c51db02162a",
-        "parentUid" : "926c880be232cd17535b368350df231e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610870708243,
-          "stop" : 1610870713245,
-          "duration" : 5002
+          "start" : 1610870373938,
+          "stop" : 1610870387313,
+          "duration" : 13375
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
       } ],
-      "uid" : "926c880be232cd17535b368350df231e"
-    }, {
-      "name" : "2876-MainThread",
-      "children" : [ {
-        "name" : "test_login_success",
-        "uid" : "2a6b6dabdddf5dd7",
-        "parentUid" : "6dac65ef6fb8fab3c224833c61639e4c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1610783610501,
-          "stop" : 1610783610501,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6dac65ef6fb8fab3c224833c61639e4c"
-    }, {
-      "name" : "12344-MainThread",
-      "children" : [ {
-        "name" : "test_login_success",
-        "uid" : "9e2b84e6187a880c",
-        "parentUid" : "683e1ca1a6912feff591d125e611312c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610783435647,
-          "stop" : 1610783440310,
-          "duration" : 4663
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "683e1ca1a6912feff591d125e611312c"
-    }, {
-      "name" : "5268-MainThread",
-      "children" : [ {
-        "name" : "test_login_success",
-        "uid" : "a69bdbf95eb3c721",
-        "parentUid" : "4ed17c53a846d45f543ebae39ac1db89",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610784046045,
-          "stop" : 1610784051532,
-          "duration" : 5487
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4ed17c53a846d45f543ebae39ac1db89"
-    }, {
-      "name" : "11052-MainThread",
-      "children" : [ {
-        "name" : "test_login_success",
-        "uid" : "9b2445fad2ae3e77",
-        "parentUid" : "bc95c35d6e9d21472e5234104a1289a3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610781212183,
-          "stop" : 1610781217025,
-          "duration" : 4842
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "bc95c35d6e9d21472e5234104a1289a3"
-    }, {
-      "name" : "14032-MainThread",
-      "children" : [ {
-        "name" : "test_login_success",
-        "uid" : "86b9f871d73bbe60",
-        "parentUid" : "be70361bee3a19bb6195f11bdcfaf828",
-        "status" : "broken",
-        "time" : {
-          "start" : 1610781788584,
-          "stop" : 1610781790285,
-          "duration" : 1701
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "be70361bee3a19bb6195f11bdcfaf828"
+      "uid" : "12c7c66729427312fb16b18914d17b11"
     }, {
       "name" : "1600-MainThread",
       "children" : [ {
         "name" : "test_login_success",
-        "uid" : "8863ed5ea28e831a",
+        "uid" : "6e403d7dae2fa5d1",
         "parentUid" : "f217d929b093042844838039b80705c3",
         "status" : "passed",
         "time" : {
@@ -438,10 +418,225 @@
       } ],
       "uid" : "f217d929b093042844838039b80705c3"
     }, {
+      "name" : "14032-MainThread",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "531b401c574ee918",
+        "parentUid" : "be70361bee3a19bb6195f11bdcfaf828",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610781788584,
+          "stop" : 1610781790285,
+          "duration" : 1701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be70361bee3a19bb6195f11bdcfaf828"
+    }, {
+      "name" : "13436-MainThread",
+      "children" : [ {
+        "name" : "test_login_failed[data3]",
+        "uid" : "d79421d2225fcbad",
+        "parentUid" : "38b598a86a954e34646051f7cfc040d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614499961178,
+          "stop" : 1614499961178,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
+      }, {
+        "name" : "test_login_failed[data1]",
+        "uid" : "6bb88027ec65e189",
+        "parentUid" : "38b598a86a954e34646051f7cfc040d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614499960838,
+          "stop" : 1614499960838,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_failed[data2]",
+        "uid" : "baaf24e39a17208f",
+        "parentUid" : "38b598a86a954e34646051f7cfc040d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614499960998,
+          "stop" : 1614499960998,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
+      }, {
+        "name" : "test_login_failed[data0]",
+        "uid" : "32b3dbdc0831b572",
+        "parentUid" : "38b598a86a954e34646051f7cfc040d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614499950511,
+          "stop" : 1614499950511,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
+      }, {
+        "name" : "test_login_failed[data4]",
+        "uid" : "61252a8bfbff56cc",
+        "parentUid" : "38b598a86a954e34646051f7cfc040d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614499961408,
+          "stop" : 1614499961408,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_success",
+        "uid" : "4efdd86f6522b165",
+        "parentUid" : "38b598a86a954e34646051f7cfc040d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614499961591,
+          "stop" : 1614499961591,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38b598a86a954e34646051f7cfc040d0"
+    }, {
+      "name" : "12344-MainThread",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "8b5be13990370491",
+        "parentUid" : "683e1ca1a6912feff591d125e611312c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610783435647,
+          "stop" : 1610783440310,
+          "duration" : 4663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "683e1ca1a6912feff591d125e611312c"
+    }, {
+      "name" : "11052-MainThread",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "3dbfeb4663542bfb",
+        "parentUid" : "bc95c35d6e9d21472e5234104a1289a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610781212183,
+          "stop" : 1610781217025,
+          "duration" : 4842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc95c35d6e9d21472e5234104a1289a3"
+    }, {
+      "name" : "10788-MainThread",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "20a5c464122a8847",
+        "parentUid" : "926c880be232cd17535b368350df231e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610870732240,
+          "stop" : 1610870736910,
+          "duration" : 4670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_failed[data2]",
+        "uid" : "c786025395b7631b",
+        "parentUid" : "926c880be232cd17535b368350df231e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610870718067,
+          "stop" : 1610870722819,
+          "duration" : 4752
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': '15566669999', 'password': '654321Ok', 'error_msg': '用户不存在'}" ]
+      }, {
+        "name" : "test_login_failed[data1]",
+        "uid" : "d5114d3dd247e331",
+        "parentUid" : "926c880be232cd17535b368350df231e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610870713255,
+          "stop" : 1610870718060,
+          "duration" : 4805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok', 'error_msg': '账号或密码错误'}" ]
+      }, {
+        "name" : "test_login_failed[data3]",
+        "uid" : "4990eb6ddf9f6ec6",
+        "parentUid" : "926c880be232cd17535b368350df231e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610870722826,
+          "stop" : 1610870727525,
+          "duration" : 4699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '15510817996', 'password': '', 'error_msg': '密码不能为空'}" ]
+      }, {
+        "name" : "test_login_failed[data0]",
+        "uid" : "a1f4a0a60dce021",
+        "parentUid" : "926c880be232cd17535b368350df231e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610870708243,
+          "stop" : 1610870713245,
+          "duration" : 5002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空'}" ]
+      }, {
+        "name" : "test_login_failed[data4]",
+        "uid" : "618c8c64f96c5e48",
+        "parentUid" : "926c880be232cd17535b368350df231e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610870727534,
+          "stop" : 1610870732232,
+          "duration" : 4698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
+      } ],
+      "uid" : "926c880be232cd17535b368350df231e"
+    }, {
       "name" : "8744-MainThread",
       "children" : [ {
         "name" : "test_login_success",
-        "uid" : "4d789a6c56d34245",
+        "uid" : "6303a9c9d2ca5ab",
         "parentUid" : "58b0317a5c9877b9802008b8a2849192",
         "status" : "passed",
         "time" : {
@@ -454,6 +649,57 @@
         "parameters" : [ ]
       } ],
       "uid" : "58b0317a5c9877b9802008b8a2849192"
+    }, {
+      "name" : "2876-MainThread",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "cc83ed516fde3d24",
+        "parentUid" : "6dac65ef6fb8fab3c224833c61639e4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610783610501,
+          "stop" : 1610783610501,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6dac65ef6fb8fab3c224833c61639e4c"
+    }, {
+      "name" : "5268-MainThread",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "f944545ee7af33ce",
+        "parentUid" : "4ed17c53a846d45f543ebae39ac1db89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610784046045,
+          "stop" : 1610784051532,
+          "duration" : 5487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ed17c53a846d45f543ebae39ac1db89"
+    }, {
+      "name" : "3552-MainThread",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "d3661476bbe02b84",
+        "parentUid" : "92432f125e7ca54197765cd3fc6aaf7e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610780958199,
+          "stop" : 1610780958199,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92432f125e7ca54197765cd3fc6aaf7e"
     } ],
     "uid" : "f82f17b6958f879e2fcf4c6e09aa289a"
   } ]
