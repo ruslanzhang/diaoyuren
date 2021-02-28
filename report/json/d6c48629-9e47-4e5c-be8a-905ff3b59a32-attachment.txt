@@ -1,0 +1,8 @@
+INFO     root:get_log.py:36 go to login page
+INFO     root:get_log.py:36 进入me page
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/36b8c3bd-b4de-41d8-be43-6bd09d1afa58/element {"using": "id", "value": "com.lchr.diaoyu:id/btn_tab_mine"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/36b8c3bd-b4de-41d8-be43-6bd09d1afa58/element HTTP/1.1" 404 494
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:4723/wd/hub/session/36b8c3bd-b4de-41d8-be43-6bd09d1afa58 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "DELETE /wd/hub/session/36b8c3bd-b4de-41d8-be43-6bd09d1afa58 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

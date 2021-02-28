@@ -1,0 +1,428 @@
+2021-01-17 14:58:29,174 - root - INFO - go to login page
+2021-01-17 14:58:29,175 - root - INFO - 开始进入 me page 页面
+2021-01-17 14:58:34,176 - root - INFO - 开始查找版本更新窗口中的版本更新页面元素
+2021-01-17 14:58:34,186 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/dialog_title')
+2021-01-17 14:58:34,426 - root - INFO - the element: ('id', 'com.lchr.diaoyu:id/dialog_title') not found.
+2021-01-17 14:58:34,427 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-01-17 14:58:34,560 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="41334afe-c2d1-4c0b-b2ee-0afa4b571a72")>
+2021-01-17 14:58:34,594 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="41334afe-c2d1-4c0b-b2ee-0afa4b571a72")> 已点击
+2021-01-17 14:58:36,596 - root - INFO - is search for element ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 14:58:36,597 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 14:58:36,836 - root - INFO - the element ('id', 'com.lchr.diaoyu:id/tv_click2login') not found.
+2021-01-17 14:58:36,837 - root - INFO - Message: An element could not be located on the page using the given search parameters.
+
+2021-01-17 14:58:36,838 - root - INFO - begin to perform logout operation
+2021-01-17 14:58:36,838 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/iv_top_navi_setting')
+2021-01-17 14:58:36,905 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="62f3cc43-9929-4e54-98a1-6a2f7f022883")>
+2021-01-17 14:58:36,931 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="62f3cc43-9929-4e54-98a1-6a2f7f022883")> 已点击
+2021-01-17 14:58:38,932 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/rtv_setting_logout')
+2021-01-17 14:58:38,979 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="378f63b9-8755-494a-9b27-f5cbbcdee8ba")>
+2021-01-17 14:58:39,006 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="378f63b9-8755-494a-9b27-f5cbbcdee8ba")> 已点击
+2021-01-17 14:58:40,006 - root - INFO - 开始寻找页面元素： ('id', 'android:id/button1')
+2021-01-17 14:58:40,030 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="017903ad-eb83-4f0f-9306-05082f3a670a")>
+2021-01-17 14:58:40,060 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="017903ad-eb83-4f0f-9306-05082f3a670a")> 已点击
+2021-01-17 14:58:40,061 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 14:58:41,079 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="d7d1d8bf-9f7e-4c82-94f1-270fe5e5dd4a")>
+2021-01-17 14:58:41,768 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="d7d1d8bf-9f7e-4c82-94f1-270fe5e5dd4a")> 已点击
+2021-01-17 14:58:43,769 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-01-17 14:58:43,801 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="d22ae76a-5769-4539-b00b-08ae3127d775")>
+2021-01-17 14:58:43,831 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="d22ae76a-5769-4539-b00b-08ae3127d775")> 已点击
+2021-01-17 14:58:45,836 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 14:58:45,879 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="34bd3878-c8fc-4a97-88ee-851fbe27577c")>
+2021-01-17 14:58:46,418 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="34bd3878-c8fc-4a97-88ee-851fbe27577c")> 传送数据
+2021-01-17 14:58:46,419 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 14:58:46,461 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="53053b3a-1133-4105-949d-08330cf33114")>
+2021-01-17 14:58:46,932 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="53053b3a-1133-4105-949d-08330cf33114")> 传送数据
+2021-01-17 14:58:46,932 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 14:58:46,974 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="75ed92e2-2813-4e89-9778-bf4bd09967ca")>
+2021-01-17 14:58:47,437 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="852a5546-9b1f-44ff-82cc-4bff7e7cccfc", element="75ed92e2-2813-4e89-9778-bf4bd09967ca")> 已点击
+2021-01-17 14:58:50,438 - root - INFO - 登录完成
+2021-01-17 14:58:50,439 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-01-17 14:58:50,491 - root - INFO - 已找到页面元素： ('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-01-17 15:22:37,403 - root - INFO - 开始进入首页
+2021-01-17 15:22:42,405 - root - INFO - 开始查找版本更新窗口中的版本更新页面元素
+2021-01-17 15:22:42,409 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/dialog_title')
+2021-01-17 15:22:43,638 - root - INFO - the element: ('id', 'com.lchr.diaoyu:id/dialog_title') not found.
+2021-01-17 15:22:43,639 - root - INFO - 开始准备进入我的页面
+2021-01-17 15:22:43,640 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-01-17 15:22:43,708 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="6671397b-8a92-4cb6-89d3-3975d9a67c91")>
+2021-01-17 15:22:44,269 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="6671397b-8a92-4cb6-89d3-3975d9a67c91")> 已点击
+2021-01-17 15:22:44,269 - root - INFO - 已经进入我的页面
+2021-01-17 15:22:46,271 - root - INFO - is search for element ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 15:22:46,271 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 15:22:46,419 - root - INFO - the element ('id', 'com.lchr.diaoyu:id/tv_click2login') not found.
+2021-01-17 15:22:46,420 - root - INFO - Message: An element could not be located on the page using the given search parameters.
+
+2021-01-17 15:22:46,421 - root - INFO - begin to perform logout operation
+2021-01-17 15:22:46,421 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/iv_top_navi_setting')
+2021-01-17 15:22:46,557 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="a3c25953-5d6b-4e70-952e-511485ea3bac")>
+2021-01-17 15:22:47,936 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="a3c25953-5d6b-4e70-952e-511485ea3bac")> 已点击
+2021-01-17 15:22:49,937 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/rtv_setting_logout')
+2021-01-17 15:22:49,981 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="0cfe79cb-6920-43f6-9148-35be3ef2ef23")>
+2021-01-17 15:22:50,024 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="0cfe79cb-6920-43f6-9148-35be3ef2ef23")> 已点击
+2021-01-17 15:22:51,025 - root - INFO - 开始寻找页面元素： ('id', 'android:id/button1')
+2021-01-17 15:22:51,075 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="b5e2a09e-7a2e-4e38-a44e-c94005459b47")>
+2021-01-17 15:22:51,119 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="b5e2a09e-7a2e-4e38-a44e-c94005459b47")> 已点击
+2021-01-17 15:22:51,120 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 15:22:52,358 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="1a009a9e-aa63-43f3-9644-c7c134f51872")>
+2021-01-17 15:22:53,070 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="1a009a9e-aa63-43f3-9644-c7c134f51872")> 已点击
+2021-01-17 15:22:55,070 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-01-17 15:22:55,106 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="4d55759d-9aec-419a-b10c-ab41251972d0")>
+2021-01-17 15:22:55,164 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="4d55759d-9aec-419a-b10c-ab41251972d0")> 已点击
+2021-01-17 15:22:57,169 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 15:22:57,207 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="1ff5d9ea-4cd9-4096-8c97-9171b8188185")>
+2021-01-17 15:22:57,792 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="1ff5d9ea-4cd9-4096-8c97-9171b8188185")> 传送数据
+2021-01-17 15:22:57,793 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 15:22:57,849 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="61d577ac-32b8-401f-9ba9-50375fbd6771")>
+2021-01-17 15:22:58,331 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="61d577ac-32b8-401f-9ba9-50375fbd6771")> 传送数据
+2021-01-17 15:22:58,332 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 15:22:58,835 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="d5abbced-1ace-4087-9dcb-0a83e5849f49")>
+2021-01-17 15:22:58,873 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="d5abbced-1ace-4087-9dcb-0a83e5849f49")> 已点击
+2021-01-17 15:23:01,875 - root - INFO - 反向用例，登录失败
+2021-01-17 15:23:01,876 - root - INFO - waiting for toast element to show
+2021-01-17 15:23:02,485 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 15:23:02,600 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 15:23:02,643 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="16174e79-7f62-49fa-b0fe-29e232c54a39")>
+2021-01-17 15:23:03,195 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="16174e79-7f62-49fa-b0fe-29e232c54a39")> 传送数据
+2021-01-17 15:23:03,226 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 15:23:03,710 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="63bc2936-8fab-4d50-ad84-8d672626c5ca")>
+2021-01-17 15:23:03,744 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="63bc2936-8fab-4d50-ad84-8d672626c5ca")> 传送数据
+2021-01-17 15:23:03,745 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 15:23:04,248 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="b8b7021a-39a7-4a1b-8e08-bb064c7249fb")>
+2021-01-17 15:23:04,284 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="b8b7021a-39a7-4a1b-8e08-bb064c7249fb")> 已点击
+2021-01-17 15:23:07,285 - root - INFO - 反向用例，登录失败
+2021-01-17 15:23:07,285 - root - INFO - waiting for toast element to show
+2021-01-17 15:23:07,349 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 15:23:07,359 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 15:23:07,387 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="352b4e7f-b32f-402a-a212-dd121a70e249")>
+2021-01-17 15:23:07,968 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="352b4e7f-b32f-402a-a212-dd121a70e249")> 传送数据
+2021-01-17 15:23:07,969 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 15:23:08,038 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="364ab742-b5ae-46ea-861f-0ce875c5ebda")>
+2021-01-17 15:23:08,520 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="364ab742-b5ae-46ea-861f-0ce875c5ebda")> 传送数据
+2021-01-17 15:23:08,521 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 15:23:09,023 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="d1485bba-427b-43c9-bc92-7ae0c5fa05f9")>
+2021-01-17 15:23:09,070 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="d1485bba-427b-43c9-bc92-7ae0c5fa05f9")> 已点击
+2021-01-17 15:23:12,070 - root - INFO - 反向用例，登录失败
+2021-01-17 15:23:12,071 - root - INFO - waiting for toast element to show
+2021-01-17 15:23:12,131 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 15:23:12,140 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 15:23:12,206 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="dba83762-ba4a-4d11-a5e3-cbb4a62c8146")>
+2021-01-17 15:23:12,758 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="dba83762-ba4a-4d11-a5e3-cbb4a62c8146")> 传送数据
+2021-01-17 15:23:12,758 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 15:23:13,296 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="1d0cafa2-6b0a-4ad6-8df2-bb138474a88b")>
+2021-01-17 15:23:13,480 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="1d0cafa2-6b0a-4ad6-8df2-bb138474a88b")> 传送数据
+2021-01-17 15:23:13,481 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 15:23:13,548 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="b023863b-0537-4ec7-b049-273708d5c326")>
+2021-01-17 15:23:13,997 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="b023863b-0537-4ec7-b049-273708d5c326")> 已点击
+2021-01-17 15:23:16,998 - root - INFO - 反向用例，登录失败
+2021-01-17 15:23:16,999 - root - INFO - waiting for toast element to show
+2021-01-17 15:23:17,151 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 15:23:17,161 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 15:23:17,229 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="219ed51f-4964-40b4-8acd-c5005a1a401d")>
+2021-01-17 15:23:17,775 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="219ed51f-4964-40b4-8acd-c5005a1a401d")> 传送数据
+2021-01-17 15:23:17,775 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 15:23:17,825 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="7445a35f-6691-4414-97c5-9aa8a5c671fb")>
+2021-01-17 15:23:18,294 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="7445a35f-6691-4414-97c5-9aa8a5c671fb")> 传送数据
+2021-01-17 15:23:18,295 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 15:23:18,799 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="a981b4c8-9fb2-4596-a76e-f22ee5ad82cb")>
+2021-01-17 15:23:18,842 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="e5be69ea-ea1f-4923-b833-515ceb4ea12b", element="a981b4c8-9fb2-4596-a76e-f22ee5ad82cb")> 已点击
+2021-01-17 15:23:21,842 - root - INFO - 反向用例，登录失败
+2021-01-17 15:23:21,843 - root - INFO - waiting for toast element to show
+2021-01-17 15:23:21,941 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 15:59:19,300 - root - INFO - 开始进入首页
+2021-01-17 15:59:24,301 - root - INFO - 开始查找版本更新窗口中的版本更新页面元素
+2021-01-17 15:59:24,302 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/dialog_title')
+2021-01-17 15:59:25,394 - root - INFO - the element: ('id', 'com.lchr.diaoyu:id/dialog_title') not found.
+2021-01-17 15:59:25,395 - root - INFO - 开始准备进入我的页面
+2021-01-17 15:59:25,396 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-01-17 15:59:25,504 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="902f9b99-ffcf-4365-8010-8d58d2f4e529")>
+2021-01-17 15:59:25,562 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="902f9b99-ffcf-4365-8010-8d58d2f4e529")> 已点击
+2021-01-17 15:59:25,563 - root - INFO - 已经进入我的页面
+2021-01-17 15:59:27,566 - root - INFO - is search for element ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 15:59:27,567 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 15:59:27,589 - root - INFO - found the element ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 15:59:27,589 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 15:59:27,618 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="832fe685-0c67-43a4-a477-48370ad0cc12")>
+2021-01-17 15:59:27,643 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="832fe685-0c67-43a4-a477-48370ad0cc12")> 已点击
+2021-01-17 15:59:29,644 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-01-17 15:59:29,678 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="f76995ac-c66e-413d-9408-f52270a64783")>
+2021-01-17 15:59:31,933 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="f76995ac-c66e-413d-9408-f52270a64783")> 已点击
+2021-01-17 15:59:33,939 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 15:59:33,964 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="b6fc3a3e-4ca6-442a-b2fe-020ea36e2c25")>
+2021-01-17 15:59:34,509 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="b6fc3a3e-4ca6-442a-b2fe-020ea36e2c25")> 传送数据
+2021-01-17 15:59:34,510 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 15:59:34,567 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="372b6659-f0bc-4f70-a55d-5be39c725752")>
+2021-01-17 15:59:35,035 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="372b6659-f0bc-4f70-a55d-5be39c725752")> 传送数据
+2021-01-17 15:59:35,036 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 15:59:35,115 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="34d300cf-11fc-4cef-83eb-861af41299db")>
+2021-01-17 15:59:36,089 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="34d300cf-11fc-4cef-83eb-861af41299db")> 已点击
+2021-01-17 15:59:39,090 - root - INFO - 反向用例，登录失败
+2021-01-17 15:59:39,108 - root - INFO - waiting for toast element to show
+2021-01-17 15:59:47,312 - root - WARNING - toast not found.
+2021-01-17 15:59:47,649 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 15:59:47,697 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="8911bb68-92c2-4ed2-87a7-74122aea3748")>
+2021-01-17 15:59:48,240 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="8911bb68-92c2-4ed2-87a7-74122aea3748")> 传送数据
+2021-01-17 15:59:48,241 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 15:59:48,284 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="526dd8d4-36fc-4133-bd07-7c7d57d18af9")>
+2021-01-17 15:59:48,759 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="526dd8d4-36fc-4133-bd07-7c7d57d18af9")> 传送数据
+2021-01-17 15:59:48,760 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 15:59:48,792 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="2835d270-24c5-4247-85c0-24a5d6924348")>
+2021-01-17 15:59:50,014 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="2835d270-24c5-4247-85c0-24a5d6924348")> 已点击
+2021-01-17 15:59:53,015 - root - INFO - 反向用例，登录失败
+2021-01-17 15:59:53,016 - root - INFO - waiting for toast element to show
+2021-01-17 16:00:01,177 - root - WARNING - toast not found.
+2021-01-17 16:00:01,370 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:00:01,401 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="26e78833-2079-48dc-9d67-deb5c1854c20")>
+2021-01-17 16:00:02,163 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="26e78833-2079-48dc-9d67-deb5c1854c20")> 传送数据
+2021-01-17 16:00:02,164 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:00:02,722 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="6deabbe4-ef6c-4226-aae5-6dfcdd3cdef7")>
+2021-01-17 16:00:02,759 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="6deabbe4-ef6c-4226-aae5-6dfcdd3cdef7")> 传送数据
+2021-01-17 16:00:02,760 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:00:02,787 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="96b01138-4320-4cba-9aa1-0d43cf0d0441")>
+2021-01-17 16:00:03,955 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="96b01138-4320-4cba-9aa1-0d43cf0d0441")> 已点击
+2021-01-17 16:00:06,955 - root - INFO - 反向用例，登录失败
+2021-01-17 16:00:06,956 - root - INFO - waiting for toast element to show
+2021-01-17 16:00:15,015 - root - WARNING - toast not found.
+2021-01-17 16:00:15,134 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:00:15,155 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="97eeffad-ef69-4156-b8fb-90cc9f4c02ce")>
+2021-01-17 16:00:15,688 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="97eeffad-ef69-4156-b8fb-90cc9f4c02ce")> 传送数据
+2021-01-17 16:00:15,688 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:00:15,721 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="90d62563-2855-4fd5-aa1c-2daaa91f122d")>
+2021-01-17 16:00:16,212 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="90d62563-2855-4fd5-aa1c-2daaa91f122d")> 传送数据
+2021-01-17 16:00:16,213 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:00:16,720 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="a7b4ef7e-8db2-49b5-9834-77960f0c9d5e")>
+2021-01-17 16:00:16,744 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="a7b4ef7e-8db2-49b5-9834-77960f0c9d5e")> 已点击
+2021-01-17 16:00:19,746 - root - INFO - 反向用例，登录失败
+2021-01-17 16:00:19,749 - root - INFO - waiting for toast element to show
+2021-01-17 16:00:19,794 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:00:19,806 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:00:19,828 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="76e86903-b64b-4f18-9401-616d25c0016e")>
+2021-01-17 16:00:20,362 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="76e86903-b64b-4f18-9401-616d25c0016e")> 传送数据
+2021-01-17 16:00:20,362 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:00:20,423 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="91bd595b-d489-4e90-8a28-a0cebd65aeb6")>
+2021-01-17 16:00:20,877 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="91bd595b-d489-4e90-8a28-a0cebd65aeb6")> 传送数据
+2021-01-17 16:00:20,878 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:00:20,906 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="d831edca-5172-4c36-8d59-5f0394b0e557")>
+2021-01-17 16:00:21,392 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="d831edca-5172-4c36-8d59-5f0394b0e557")> 已点击
+2021-01-17 16:00:24,392 - root - INFO - 反向用例，登录失败
+2021-01-17 16:00:24,393 - root - INFO - waiting for toast element to show
+2021-01-17 16:00:24,438 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:00:24,445 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:00:24,471 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="c5f83e03-16f2-4286-8b96-98cda700acb8")>
+2021-01-17 16:00:25,005 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="c5f83e03-16f2-4286-8b96-98cda700acb8")> 传送数据
+2021-01-17 16:00:25,006 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:00:25,037 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="1afc8f1a-db84-4844-b349-4593cf88ce44")>
+2021-01-17 16:00:25,530 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="1afc8f1a-db84-4844-b349-4593cf88ce44")> 传送数据
+2021-01-17 16:00:25,531 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:00:26,040 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="3fe9fb22-8eeb-497b-8b59-643800b0e46b")>
+2021-01-17 16:00:26,066 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="da09cea6-b40a-4eda-9420-e55def782def", element="3fe9fb22-8eeb-497b-8b59-643800b0e46b")> 已点击
+2021-01-17 16:00:29,068 - root - INFO - 登录完成
+2021-01-17 16:00:29,069 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-01-17 16:00:29,099 - root - INFO - 已找到页面元素： ('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-01-17 16:00:29,100 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:04:51,322 - root - INFO - 开始进入首页
+2021-01-17 16:04:56,332 - root - INFO - 开始查找版本更新窗口中的版本更新页面元素
+2021-01-17 16:04:56,333 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/dialog_title')
+2021-01-17 16:04:57,205 - root - INFO - the element: ('id', 'com.lchr.diaoyu:id/dialog_title') not found.
+2021-01-17 16:04:57,205 - root - INFO - 开始准备进入我的页面
+2021-01-17 16:04:57,206 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-01-17 16:04:57,276 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="d10e5327-9e5e-45b3-b5f0-d37c4e2757a5")>
+2021-01-17 16:04:57,298 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="d10e5327-9e5e-45b3-b5f0-d37c4e2757a5")> 已点击
+2021-01-17 16:04:57,299 - root - INFO - 已经进入我的页面
+2021-01-17 16:04:59,300 - root - INFO - is search for element ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 16:04:59,301 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 16:04:59,368 - root - INFO - the element ('id', 'com.lchr.diaoyu:id/tv_click2login') not found.
+2021-01-17 16:04:59,369 - root - INFO - Message: An element could not be located on the page using the given search parameters.
+
+2021-01-17 16:04:59,369 - root - INFO - begin to perform logout operation
+2021-01-17 16:04:59,370 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/iv_top_navi_setting')
+2021-01-17 16:04:59,424 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="3d75eb8c-7dbb-402b-b5f1-cf9b3a395f30")>
+2021-01-17 16:04:59,445 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="3d75eb8c-7dbb-402b-b5f1-cf9b3a395f30")> 已点击
+2021-01-17 16:05:01,448 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/rtv_setting_logout')
+2021-01-17 16:05:01,508 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="0919639b-99da-4f96-b35c-2beca90cc04c")>
+2021-01-17 16:05:01,539 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="0919639b-99da-4f96-b35c-2beca90cc04c")> 已点击
+2021-01-17 16:05:02,541 - root - INFO - 开始寻找页面元素： ('id', 'android:id/button1')
+2021-01-17 16:05:02,567 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="e1bf47b7-1016-4e3e-b427-3b0c71c36590")>
+2021-01-17 16:05:02,591 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="e1bf47b7-1016-4e3e-b427-3b0c71c36590")> 已点击
+2021-01-17 16:05:02,592 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 16:05:03,126 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="3e64808f-3a59-4e95-8aed-38d78d36c487")>
+2021-01-17 16:05:04,165 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="3e64808f-3a59-4e95-8aed-38d78d36c487")> 已点击
+2021-01-17 16:05:06,177 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-01-17 16:05:06,205 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="10967728-74a3-4315-a77f-4eb01250958f")>
+2021-01-17 16:05:06,240 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="10967728-74a3-4315-a77f-4eb01250958f")> 已点击
+2021-01-17 16:05:08,244 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:05:08,300 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="80e13c04-d917-45ca-afb5-37b5d2b686ec")>
+2021-01-17 16:05:08,863 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="80e13c04-d917-45ca-afb5-37b5d2b686ec")> 传送数据
+2021-01-17 16:05:08,864 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:05:08,900 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="fa176a3f-0e67-4682-8b6f-74755e241451")>
+2021-01-17 16:05:09,383 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="fa176a3f-0e67-4682-8b6f-74755e241451")> 传送数据
+2021-01-17 16:05:09,384 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:05:09,889 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="1515ed03-b172-4f49-83a7-a4fdee5b24a5")>
+2021-01-17 16:05:09,917 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="1515ed03-b172-4f49-83a7-a4fdee5b24a5")> 已点击
+2021-01-17 16:05:12,917 - root - INFO - 反向用例，登录失败
+2021-01-17 16:05:12,918 - root - INFO - waiting for toast element to show
+2021-01-17 16:05:13,244 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:05:13,254 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:05:13,321 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="6c68189c-8663-4b4e-affb-d5456b916a73")>
+2021-01-17 16:05:13,894 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="6c68189c-8663-4b4e-affb-d5456b916a73")> 传送数据
+2021-01-17 16:05:13,895 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:05:14,390 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="7cece0a0-baee-4e5d-a8ac-96c6a2b11859")>
+2021-01-17 16:05:14,418 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="7cece0a0-baee-4e5d-a8ac-96c6a2b11859")> 传送数据
+2021-01-17 16:05:14,419 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:05:14,448 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="10cb9148-47dd-4078-be3e-5e584311ff19")>
+2021-01-17 16:05:14,936 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="10cb9148-47dd-4078-be3e-5e584311ff19")> 已点击
+2021-01-17 16:05:17,938 - root - INFO - 反向用例，登录失败
+2021-01-17 16:05:17,939 - root - INFO - waiting for toast element to show
+2021-01-17 16:05:18,058 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:05:18,068 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:05:18,102 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="ea1344fa-b0db-40e2-ab22-a88dd326a9e2")>
+2021-01-17 16:05:18,712 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="ea1344fa-b0db-40e2-ab22-a88dd326a9e2")> 传送数据
+2021-01-17 16:05:18,713 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:05:18,753 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="ea64fed0-16b6-42d1-bc7a-26f8a2e79d91")>
+2021-01-17 16:05:19,250 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="ea64fed0-16b6-42d1-bc7a-26f8a2e79d91")> 传送数据
+2021-01-17 16:05:19,251 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:05:19,735 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="f0299807-1dcb-4a67-bef8-feadb8b72cc7")>
+2021-01-17 16:05:19,759 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="f0299807-1dcb-4a67-bef8-feadb8b72cc7")> 已点击
+2021-01-17 16:05:22,760 - root - INFO - 反向用例，登录失败
+2021-01-17 16:05:22,761 - root - INFO - waiting for toast element to show
+2021-01-17 16:05:22,818 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:05:22,826 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:05:22,859 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="a33b55d4-989d-4599-9767-2b058524a94f")>
+2021-01-17 16:05:23,428 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="a33b55d4-989d-4599-9767-2b058524a94f")> 传送数据
+2021-01-17 16:05:23,429 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:05:23,474 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="8619336e-18ab-4448-a78e-39dae292da27")>
+2021-01-17 16:05:23,953 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="8619336e-18ab-4448-a78e-39dae292da27")> 传送数据
+2021-01-17 16:05:23,955 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:05:24,009 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="3e75a62b-3a51-4df2-923d-2199f2f10a87")>
+2021-01-17 16:05:24,455 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="3e75a62b-3a51-4df2-923d-2199f2f10a87")> 已点击
+2021-01-17 16:05:27,457 - root - INFO - 反向用例，登录失败
+2021-01-17 16:05:27,458 - root - INFO - waiting for toast element to show
+2021-01-17 16:05:27,524 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:05:27,535 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:05:27,560 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="2ce1a613-014d-4cfc-896a-d9ac760c655e")>
+2021-01-17 16:05:28,112 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="2ce1a613-014d-4cfc-896a-d9ac760c655e")> 传送数据
+2021-01-17 16:05:28,112 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:05:28,184 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="d5436567-ccb7-4466-8f07-8feafde36d99")>
+2021-01-17 16:05:28,662 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="d5436567-ccb7-4466-8f07-8feafde36d99")> 传送数据
+2021-01-17 16:05:28,663 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:05:28,693 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="0038b44c-9b60-426f-bc8c-862818abba14")>
+2021-01-17 16:05:29,168 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="0038b44c-9b60-426f-bc8c-862818abba14")> 已点击
+2021-01-17 16:05:32,168 - root - INFO - 反向用例，登录失败
+2021-01-17 16:05:32,169 - root - INFO - waiting for toast element to show
+2021-01-17 16:05:32,232 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:05:32,240 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:05:32,265 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="2c30c6e8-e01c-4cd3-b286-69ad77b45a9b")>
+2021-01-17 16:05:32,831 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="2c30c6e8-e01c-4cd3-b286-69ad77b45a9b")> 传送数据
+2021-01-17 16:05:32,832 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:05:32,878 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="806ce972-c1a6-4b95-b51d-65152d75d075")>
+2021-01-17 16:05:33,357 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="806ce972-c1a6-4b95-b51d-65152d75d075")> 传送数据
+2021-01-17 16:05:33,358 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:05:33,393 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="96797f55-b453-46fa-aa03-eb22a4b3ba6e")>
+2021-01-17 16:05:33,860 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="4bcbfa62-d794-4ef9-be4e-bfaf5a4d160e", element="96797f55-b453-46fa-aa03-eb22a4b3ba6e")> 已点击
+2021-01-17 16:05:36,861 - root - INFO - 登录完成
+2021-01-17 16:05:36,863 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-01-17 16:05:36,907 - root - INFO - 已找到页面元素： ('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-01-17 16:05:36,908 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:36:24,783 - root - INFO - 开始进入首页
+2021-01-17 16:36:29,786 - root - INFO - 开始查找版本更新窗口中的版本更新页面元素
+2021-01-17 16:36:29,788 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/dialog_title')
+2021-01-17 16:36:29,992 - root - INFO - the element: ('id', 'com.lchr.diaoyu:id/dialog_title') not found.
+2021-01-17 16:36:29,993 - root - INFO - 开始准备进入我的页面
+2021-01-17 16:36:29,993 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-01-17 16:36:30,045 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="ded27b64-8107-4f4c-9c75-3da5dac77f34")>
+2021-01-17 16:36:30,065 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="ded27b64-8107-4f4c-9c75-3da5dac77f34")> 已点击
+2021-01-17 16:36:30,065 - root - INFO - 已经进入我的页面
+2021-01-17 16:36:32,067 - root - INFO - is search for element ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 16:36:32,068 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 16:36:32,126 - root - INFO - the element ('id', 'com.lchr.diaoyu:id/tv_click2login') not found.
+2021-01-17 16:36:32,126 - root - INFO - Message: An element could not be located on the page using the given search parameters.
+
+2021-01-17 16:36:32,127 - root - INFO - begin to perform logout operation
+2021-01-17 16:36:32,127 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/iv_top_navi_setting')
+2021-01-17 16:36:32,173 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="a9b17392-6ece-4664-943f-e2b178d1b062")>
+2021-01-17 16:36:32,192 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="a9b17392-6ece-4664-943f-e2b178d1b062")> 已点击
+2021-01-17 16:36:34,193 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/rtv_setting_logout')
+2021-01-17 16:36:34,232 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="c5560cf8-3942-45be-9303-9ec0087628cd")>
+2021-01-17 16:36:34,246 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="c5560cf8-3942-45be-9303-9ec0087628cd")> 已点击
+2021-01-17 16:36:35,248 - root - INFO - 开始寻找页面元素： ('id', 'android:id/button1')
+2021-01-17 16:36:35,266 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="75593a25-fa1b-413f-94d4-c7b6957a470c")>
+2021-01-17 16:36:35,286 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="75593a25-fa1b-413f-94d4-c7b6957a470c")> 已点击
+2021-01-17 16:36:35,287 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-01-17 16:36:35,829 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="ba34ef34-8c28-45fe-a023-ac66c4e297fa")>
+2021-01-17 16:36:36,426 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="ba34ef34-8c28-45fe-a023-ac66c4e297fa")> 已点击
+2021-01-17 16:36:38,427 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-01-17 16:36:38,445 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="b71b5ce5-99cb-43bd-b7e8-d9b6612daf86")>
+2021-01-17 16:36:38,471 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="b71b5ce5-99cb-43bd-b7e8-d9b6612daf86")> 已点击
+2021-01-17 16:36:40,474 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:36:40,492 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="590ad831-a266-49e2-b7fe-a86c800d52a7")>
+2021-01-17 16:36:41,026 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="590ad831-a266-49e2-b7fe-a86c800d52a7")> 传送数据
+2021-01-17 16:36:41,027 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:36:41,048 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="25a15f63-430c-472c-ab67-ae6d52c8f471")>
+2021-01-17 16:36:41,544 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="25a15f63-430c-472c-ab67-ae6d52c8f471")> 传送数据
+2021-01-17 16:36:41,545 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:36:41,572 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="1467c0b7-0e7c-407c-8f3f-a8db7a730a49")>
+2021-01-17 16:36:42,046 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="1467c0b7-0e7c-407c-8f3f-a8db7a730a49")> 已点击
+2021-01-17 16:36:45,049 - root - INFO - 反向用例，登录失败
+2021-01-17 16:36:45,050 - root - INFO - waiting for toast element to show
+2021-01-17 16:36:45,172 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:36:45,181 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:36:45,201 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="eb94cb0e-39b3-4185-9e3e-1b72c12bffc4")>
+2021-01-17 16:36:45,727 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="eb94cb0e-39b3-4185-9e3e-1b72c12bffc4")> 传送数据
+2021-01-17 16:36:45,728 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:36:45,758 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="599a4038-9f98-4e1f-a3cd-bcb3f8359c90")>
+2021-01-17 16:36:46,241 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="599a4038-9f98-4e1f-a3cd-bcb3f8359c90")> 传送数据
+2021-01-17 16:36:46,242 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:36:46,274 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="ec2c9711-048e-41da-a791-0801c1257c75")>
+2021-01-17 16:36:46,744 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="ec2c9711-048e-41da-a791-0801c1257c75")> 已点击
+2021-01-17 16:36:49,746 - root - INFO - 反向用例，登录失败
+2021-01-17 16:36:49,747 - root - INFO - waiting for toast element to show
+2021-01-17 16:36:49,782 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:36:49,789 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:36:49,807 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="44b48a69-d41b-4fe3-86d9-90d76a9c8955")>
+2021-01-17 16:36:50,342 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="44b48a69-d41b-4fe3-86d9-90d76a9c8955")> 传送数据
+2021-01-17 16:36:50,342 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:36:50,369 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="c7eacdee-942d-43f3-944b-554b6bbc586c")>
+2021-01-17 16:36:50,861 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="c7eacdee-942d-43f3-944b-554b6bbc586c")> 传送数据
+2021-01-17 16:36:50,862 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:36:50,885 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="2c55547a-fc9e-47c7-9de2-a4c04129aa4e")>
+2021-01-17 16:36:51,366 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="2c55547a-fc9e-47c7-9de2-a4c04129aa4e")> 已点击
+2021-01-17 16:36:54,366 - root - INFO - 反向用例，登录失败
+2021-01-17 16:36:54,367 - root - INFO - waiting for toast element to show
+2021-01-17 16:36:54,416 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:36:54,424 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:36:54,448 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="9659341c-c3b9-4476-9c8f-3caeb8420c83")>
+2021-01-17 16:36:55,114 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="9659341c-c3b9-4476-9c8f-3caeb8420c83")> 传送数据
+2021-01-17 16:36:55,115 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:36:55,554 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="e30c092d-2ad5-4ba6-9825-08432b9736ae")>
+2021-01-17 16:36:55,577 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="e30c092d-2ad5-4ba6-9825-08432b9736ae")> 传送数据
+2021-01-17 16:36:55,577 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:36:56,093 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="aff7ba22-50e7-487d-8986-1d032df347da")>
+2021-01-17 16:36:56,113 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="aff7ba22-50e7-487d-8986-1d032df347da")> 已点击
+2021-01-17 16:36:59,114 - root - INFO - 反向用例，登录失败
+2021-01-17 16:36:59,115 - root - INFO - waiting for toast element to show
+2021-01-17 16:36:59,148 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:36:59,153 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:36:59,169 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="1270b152-aa9b-4d92-a416-3c92b41742fa")>
+2021-01-17 16:36:59,693 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="1270b152-aa9b-4d92-a416-3c92b41742fa")> 传送数据
+2021-01-17 16:36:59,693 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:36:59,716 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="23593cd4-ffaa-42ca-a3a0-5e8f4d17f25c")>
+2021-01-17 16:37:00,209 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="23593cd4-ffaa-42ca-a3a0-5e8f4d17f25c")> 传送数据
+2021-01-17 16:37:00,209 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:37:00,232 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="280026e8-3ec4-4d99-bd34-f2d984b919eb")>
+2021-01-17 16:37:00,715 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="280026e8-3ec4-4d99-bd34-f2d984b919eb")> 已点击
+2021-01-17 16:37:03,716 - root - INFO - 反向用例，登录失败
+2021-01-17 16:37:03,717 - root - INFO - waiting for toast element to show
+2021-01-17 16:37:03,757 - root - INFO - 测试通过: ========== pass ==========
+2021-01-17 16:37:03,763 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_id')
+2021-01-17 16:37:03,783 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="b00b4ea1-10ab-4f42-bd49-e72046f2b437")>
+2021-01-17 16:37:04,335 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="b00b4ea1-10ab-4f42-bd49-e72046f2b437")> 传送数据
+2021-01-17 16:37:04,338 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-01-17 16:37:04,847 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="d0a1a6d5-2146-4bc6-9996-4152ff7b236a")>
+2021-01-17 16:37:04,871 - root - INFO - 已向页面元素: <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="d0a1a6d5-2146-4bc6-9996-4152ff7b236a")> 传送数据
+2021-01-17 16:37:04,872 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/btn_login')
+2021-01-17 16:37:05,374 - root - INFO - 已找到页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="ee9bca60-ee49-4261-bbf6-6d085baaad29")>
+2021-01-17 16:37:05,389 - root - INFO - 页面元素： <appium.webdriver.webelement.WebElement (session="6f00db9f-6998-4cc3-97d7-72e84eec1cf9", element="ee9bca60-ee49-4261-bbf6-6d085baaad29")> 已点击
+2021-01-17 16:37:08,391 - root - INFO - 登录完成
+2021-01-17 16:37:08,391 - root - INFO - 开始寻找页面元素： ('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-01-17 16:37:08,423 - root - INFO - 已找到页面元素： ('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-01-17 16:37:08,423 - root - INFO - 测试通过: ========== pass ==========

@@ -1,0 +1,162 @@
+{
+  "uid" : "954cdbf36ef32786",
+  "name" : "test_login_failed[data4]",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "a2528e03df87bef62f4107d22c34aea5",
+  "time" : {
+    "start" : 1610872619153,
+    "stop" : 1610872623758,
+    "duration" : 4605
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1610872619152,
+      "stop" : 1610872619152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "handler",
+    "time" : {
+      "start" : 1610872565785,
+      "stop" : 1610872584784,
+      "duration" : 18999
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "prepare_to_login",
+    "time" : {
+      "start" : 1610872584784,
+      "stop" : 1610872600472,
+      "duration" : 15688
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47aabf24ff5d8451",
+      "name" : "log",
+      "source" : "47aabf24ff5d8451.txt",
+      "type" : "text/plain",
+      "size" : 5390
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1610872628427,
+      "stop" : 1610872628881,
+      "duration" : 454
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('prepare_to_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "ruslan"
+  }, {
+    "name" : "thread",
+    "value" : "14580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55a8fbd23ee3858b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610870727534,
+        "stop" : 1610870732232,
+        "duration" : 4698
+      }
+    }, {
+      "uid" : "6e8ff7cc89b0b279",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610870419806,
+        "stop" : 1610870424440,
+        "duration" : 4634
+      }
+    }, {
+      "uid" : "a688d0bdc9170107",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610868197161,
+        "stop" : 1610868201941,
+        "duration" : 4780
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('prepare_to_login')" ]
+  },
+  "source" : "954cdbf36ef32786.json",
+  "parameterValues" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '15510817996', 'password': '654321', 'error_msg': '账号或密码错误'}" ]
+}
