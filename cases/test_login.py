@@ -16,7 +16,7 @@ def agree_the_privacy(handler):
     handler[1].agree_privacy()
 
 
-@pytest.mark.usefixtures('agree_the_privacy')
+# @pytest.mark.usefixtures('agree_the_privacy')
 @pytest.mark.usefixtures('prepare_to_login')
 class TestLogin:
     @pytest.mark.last
